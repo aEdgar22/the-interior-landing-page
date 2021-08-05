@@ -1,0 +1,527 @@
+
+/**Escritorios grandes***/
+@media (min-width: 1200px){
+
+/*****estilos para la cabecera******/
+    .header{
+        height: 5rem;
+    }
+
+   .logo-container{
+       width: 7.5rem;
+       top: 1.5rem;
+       left: 2.8rem;
+   }
+   
+   .logo{
+       font-size: 0.9rem;
+       left: -1rem;
+   }
+
+    
+    
+    .menu{
+       
+        position: absolute;
+        top: 0.5rem;
+        right: 0;
+    }
+
+    .nav-menu{
+        width: 40rem;
+        height: 4rem;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        list-style: none;
+      
+        
+    }
+
+    .nav-menu-item{
+   
+        text-transform: uppercase;
+        font-family: var(--font-text);
+        font-weight: bold;
+        font-size: 0.8rem;
+        margin: 1rem;
+    
+    }
+
+    .nav-menu-link:hover{
+        border-bottom: 2px solid #fff;
+    }
+
+    .button{
+        display: none;
+    }
+
+    /*****estilos para el banner******/
+
+    .banner-container{
+        display: flex;
+        justify-content: space-around;
+        margin: 4rem;
+        
+    }
+    
+    .info-container{
+        
+        margin-top: 8rem;
+        padding-left: 0.5rem;
+        width: 20rem;
+        height: 20rem;
+    }
+
+    .banner-tittle{
+        
+        width: max-content;
+    }
+
+    .banner-tittle h1{
+        width: max-content;
+        font-size:  2rem;
+       
+        
+    }
+    
+    .banner-text{
+        width: 95%;
+        padding: 0.5rem;
+        margin: 1.5rem 0;  
+      
+        
+    }
+    
+    .banner-text p{
+        
+        font-size: 1rem;
+       
+    }
+    
+    .decorator-container{
+        
+        margin-bottom: 2rem;
+        margin-left: 12rem;
+    }
+    
+    .img-deco{
+        display: inline;
+        width: 50vw;
+        
+    }
+    
+    .target-container{
+        width: 28vw;
+        height: 12vw;
+        left: 20vw;
+        
+        
+    }
+    
+    .target-container h3{
+       
+        display: inline;
+        position: relative;
+        top: -8vh;
+        left: 6vw;
+       
+       
+    }
+    
+    .first-p{
+        
+        left: -2.8vw;
+        font-size: 11px;
+        
+    }
+    
+    
+    
+.target-img{
+     width: 5vw;
+     border-radius: 50px;
+}
+
+
+    /***estilos collection***/
+    .collection-img{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+
+    .gallery-img{
+        display: inline;
+        margin: 1rem 2rem;
+        width: 40vw;
+        border-radius: 10px;
+    }
+
+    .gallery-img:hover{
+        width:41vw;
+        box-shadow: 0px 0px 30px 4px black;
+        transition: all ease 0.3s;
+    }
+
+    /*****estilos about us*******/
+
+    .about-container{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        
+    }
+
+    .about-text{
+        width: 30rem;
+        font-size: 1.2rem;
+    }
+
+    .about-img{
+        display: block;
+        margin: auto;
+        width: 20vw;
+        border-radius: 50%;
+    }
+}
+
+/**tablets en horizontal y escritorios normales**/
+@media (min-width: 1024px) and (max-width: 1199px){
+   
+
+   
+    .header{
+        height: 5rem;
+    }
+
+   .logo-container{
+       width: 6rem;
+       top: 1.5rem;
+       left: 2.8rem;
+   }
+   
+   .logo{
+       font-size: 0.8rem;
+       left: -2rem;
+   }
+
+    
+    
+    .menu{
+       
+        position: absolute;
+        top: 0.5rem;
+        right: 0;
+    }
+
+    .nav-menu{
+        width: 30rem;
+        height: 4rem;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        list-style: none;
+       
+        
+    }
+    .nav-menu-item{
+   
+        text-transform: uppercase;
+        font-family: var(--font-text);
+        font-weight: bold;
+        font-size: 0.6rem;
+        margin: 1rem;
+    
+    }
+
+    .nav-menu-link:hover{
+        border-bottom: 2px solid #fff;
+    }
+
+    .button{
+        display: none;
+        
+    }
+
+     /*****estilos para el banner******/
+
+     
+     .banner-container{
+        display: flex;
+        justify-content: space-around;
+        margin: 4rem 12rem;
+        
+        
+    }
+    
+    .info-container{
+        
+        margin-top: 6rem;
+        padding-left: 0.5rem;
+        width: 20rem;
+        height: 20rem;
+        
+    }
+
+    .banner-tittle{
+        
+        width: max-content;
+    }
+
+    .banner-tittle h1{
+        width: max-content;
+        font-size:  2rem;
+       
+        
+    }
+    
+    .banner-text{
+        width: 95%;
+        padding: 0.5rem;
+        margin: 1.5rem 0;  
+      
+        
+    }
+    
+    .banner-text p{
+        
+        font-size: 1rem;
+       
+    }
+    
+    .decorator-container{
+      
+        margin-bottom: 2rem;
+        margin-left: 2rem;
+        
+    }
+    
+    .img-deco{
+        display: inline;
+        width: 50vw;
+        
+    }
+    
+    .target-container{
+        width: 28vw;
+        height: 12vw;
+        left: 20vw;
+        
+        
+    }
+    
+    .target-container h3{
+       
+        display: inline;
+        position: relative;
+        top: -8vh;
+        left: 6vw;
+       
+       
+    }
+    
+    .first-p{
+        
+        left: -6vw;
+        font-size: 11px;
+        
+    }
+
+    .second-p{
+       
+        font-size: 1rem;
+    }
+    
+    
+    
+    .target-img{
+        width: 5vw;
+        border-radius: 50px;
+    }
+
+        /***estilos collection***/
+        .collection-img{
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+    
+    
+        .gallery-img{
+            display: inline;
+            margin: 1rem 2rem;
+            width: 40vw;
+            border-radius: 10px;
+        }
+    
+        .gallery-img:hover{
+            width:41vw;
+            box-shadow: 0px 0px 30px 4px black;
+            transition: all ease 0.3s;
+        }
+
+    
+    /*****estilos about us*******/
+
+    .about-container{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        
+    }
+
+    .about-text{
+        width: 30rem;
+        font-size: 1.2rem;
+    }
+
+    .about-img{
+        display: block;
+        margin: auto;
+        width: 20vw;
+        border-radius: 50%;
+    }
+    
+}
+
+/**movil horizontal y tablets vertical**/
+@media (min-width: 480px) and (max-width: 1023px){
+
+   
+    .menu{
+    
+        position: fixed;
+        top: 0;
+        left: 0;
+        background: var(--main-color);
+        width: 100%;
+        height: 100vh;
+        transform: translate(100%,0);
+        transition: all  0.3s ease;
+     
+    }
+    
+    .nav-menu{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        list-style: none;
+        
+       
+    
+    }
+
+    .nav-menu-item{
+   
+        text-transform: uppercase;
+        font-family: var(--font-text);
+        font-weight: bold;
+        font-size: 0.8rem;
+        margin: 1rem;
+    
+    }
+
+    .nav-menu-link:hover{
+        border-bottom: 2px solid #fff;
+    }
+
+    .is-active{
+        transform: translate(0,0);
+        
+    }
+
+    /****estilos banner***/
+    banner-container{
+        background: var(--main-color);
+       
+    }
+    
+    .info-container{
+        margin:1rem;
+        
+    }
+
+    .banner-text p{
+       
+        font-size: 1rem;
+    }
+    
+  
+    
+    .target-container h3{
+        
+        top: -10vh;
+        left: 20vw;
+        font-size: 2rem;
+       
+    }
+
+  
+    
+    .first-p{
+     
+        top: -7vh;
+        left: -3rem;
+        font-size: 1rem;
+        
+    }
+    
+    
+    
+    
+}
+     
+    
+
+/*moviles vertical*/
+@media (max-width: 600px){
+
+    .menu{
+    
+        position: fixed;
+        top: 0;
+        left: 0;
+        background: var(--main-color);
+        width: 100%;
+        height: 100vh;
+        transform: translate(100%,0);
+        transition: all  0.3s ease;
+      
+    }
+    
+    .nav-menu{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        list-style: none;
+    }
+
+    .nav-menu-item{
+   
+        text-transform: uppercase;
+        font-family: var(--font-text);
+        font-weight: bold;
+        font-size: 0.8rem;
+        margin: 1rem;
+    
+    }
+
+    .nav-menu-link:hover{
+        border-bottom: 2px solid #fff;
+    }
+
+    .is-active{
+        transform: translate(0,0);
+        
+    }
+}

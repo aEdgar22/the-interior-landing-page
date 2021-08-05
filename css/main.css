@@ -1,0 +1,328 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/********variables*******/
+:root{
+    
+    --main-color: #181719;
+    --text-color: #ffffff;
+    --font-tittle: 'Lora', serif;
+    --font-text: 'Montserrat', sans-serif;
+    --font-logo: 'Crimson Pro', serif;
+    
+}
+
+
+/************Estilos para la cabecera*****************/
+
+.header{
+
+    background: var(--main-color);
+    height: 4rem;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 998;
+    box-shadow: 0px 10px 25px 4px black;
+}
+
+body{
+    background: var(--main-color);
+    padding: 5rem 0 0;
+}
+
+.nav-toggle{
+    
+    position: absolute;
+    top: 0.4rem;
+    right:  0.5rem;
+    filter: invert(100%);
+    z-index: 999;
+
+}
+
+.logo-container{
+    border: 1px solid #fff;
+    width: max-content;
+    padding: 0.5rem;
+    width: 7rem;
+    height: 1.8rem;
+    text-align: center;
+    position: absolute;
+    top: 1rem;
+    left: 1rem; 
+}
+
+.logo{
+
+    position: absolute;
+    left: -1.5rem;
+    top: 0.4rem;
+    font-family: var(--font-logo);
+    font-weight: 200;
+    font-size: 0.9rem;  
+    text-transform: uppercase;
+    width: 10rem;
+}
+
+
+.nav-link{
+    text-decoration: none;
+    color: var(--text-color);
+}
+
+
+
+/******Estilos para el banner******/
+
+.banner-container{
+    background: var(--main-color);
+   
+}
+
+.info-container{
+    margin:1rem;
+    
+}
+
+.banner-tittle{
+   
+    padding: 0.5rem;
+    margin: 1.5rem 0;
+}
+
+.banner-tittle h1{
+    font-size: 1.5rem;
+    color: var(--text-color);
+    font-family: var(--font-tittle);
+    font-style: normal;
+    font-weight: 500;
+    line-height: 36px;
+    text-transform: uppercase;
+}
+
+.banner-text{
+    width: 66%;
+    padding: 0.8rem;
+    margin: 1.5rem 0;  
+  
+    
+}
+
+.banner-text p{
+    color: var(--text-color);
+    font-family: var(--font-text);
+    font-style: normal;
+    font-weight: normal;
+    font-size: 0.8rem;
+}
+
+.decorator-container{
+    
+    margin-bottom: 2rem;
+}
+
+
+
+.img-deco{
+    display: block;
+    margin:  auto;
+    max-width: 90vw;
+    
+}
+
+.target-container{
+    max-width: 80vw;
+    max-height: 45vw;
+    position: relative;
+    top: -8vw;
+    left: 12vw;
+    padding: 1rem;
+    background: var(--main-color);
+    box-shadow: 0px 10px 10px 2px black;
+    
+    
+}
+
+.target-container h3{
+    color: var(--text-color);
+    font-family: var(--font-tittle);
+    display: inline;
+    position: relative;
+    top: -8vh;
+    left: 20vw;
+}
+
+.first-p{
+    color: #828282;;
+    font-family: var(--font-text);
+    display: inline-block;
+    position: relative;
+    top: -5vh;
+    left: -2rem;
+    font-size: 10px;
+    
+}
+
+.second-p{
+    color: var(--text-color);
+    font-family: var(--font-tittle);
+    font-size: 1.4rem;
+    font-weight: bold;
+    position: relative;
+    top: -1.5rem;
+    left: 0;
+    
+}
+
+.target-img{
+    width: 15vw;
+    border-radius: 50px;
+}
+
+/***estilos collection***/
+.collection-container{
+   
+    width: 100%;
+    height: auto;
+    padding: 0.5rem;
+    background: #fff;
+    margin-bottom: 1rem;
+   
+}
+
+.collection-title{
+
+    width: 100%;
+    height: auto;
+    padding: 0.5rem;
+    background: #fff;
+    padding: 2rem;
+   
+}
+
+.collection-title h1{
+
+    text-align: center;
+    font-family: var(--font-tittle);
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 2.5rem;
+
+}
+
+.gallery-img{
+    display: block;
+    margin: 2rem auto;
+    max-width: 80vw;
+    border-radius: 5px;
+}
+
+.gallery-img:hover{
+    width:82vw;
+    box-shadow: 0px 0px 30px 4px black;
+    transition: all 0.3s;
+}
+
+/*****estilos about us****/
+
+.about-container{
+
+    padding: 1rem;
+}
+
+
+.about-title{
+ color: var(--text-color);
+ text-align: center;
+ text-transform: uppercase;
+ font-family: var(--font-tittle);
+ font-weight: 500;
+ font-size: 1.5rem;
+
+}
+
+
+
+
+.about-text{
+    color: var(--text-color);
+    font-family: var(--font-text);
+    margin: 1rem 0;
+}
+
+.about-img{
+    display: block;
+    margin: auto;
+    max-width: 70vw;
+    border-radius: 50%;
+}
+
+/*********estilos contact***********/
+
+.contact-form{
+    background: #fff;
+    padding: 2rem;
+    
+}
+
+.contact-form h2{
+    text-align: center;
+    text-transform: uppercase;
+    font-family: var(--font-tittle);
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+#input{
+    margin: 1rem;
+    border: none;
+    border-bottom: 2px solid #181719;
+    padding: 1rem;
+    text-transform: uppercase;
+}
+
+#button{
+    width: 8rem;
+    height: 2rem;
+    color: var(--text-color);
+    background: var(--main-color);
+    border: none;
+    border-radius: 5px;
+    position: relative;
+    top: 0;
+    left: 1rem;
+}
+
+
+/*******estilos footer*******/
+.footer{
+    padding: 1rem;
+
+}
+
+.footer h4>a{
+    text-decoration: none;
+    color: var(--text-color);
+    border-bottom: 2px solid #fff;
+}
+
+.footer h4{
+    font-size: 0.8rem;
+    font-family: var(--font-text);
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 2px;
+    line-height: 2px;
+    color: var(--text-color);
+}
